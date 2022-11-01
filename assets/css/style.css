@@ -1,0 +1,118 @@
+body {
+    background-color: #90A17D;
+}
+
+/*card*/
+.card {
+    background-color: #829460;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    border: 2px black solid;
+    box-shadow: 5px 3px 10px black;
+}
+
+.card-position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 100px;
+}
+
+/*----------------------*/
+
+
+/*texto e input PESOS CHILENOS*/
+.pesosChilenos {
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pesosChilenos h1 {
+    font-size: 40px;
+    font-weight: 999;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+
+.pesosChilenos input {
+    height: 40px;
+    width: 400px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+/*------------------------------*/
+
+
+/*texto e input CONVERTIDOR MONEDA EXTRANJERA*/
+.convertidor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.convertidor h2 {
+    color: rgb(224, 224, 224);
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 999;
+}
+
+.convertidor select {
+    height: 40px;
+    font-size: 20px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+/*-----------------------------------------------------------------------*/
+
+
+/*boton y resultado de la conversion */
+.boton {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boton button {
+    height: 50px;
+    width: 200px;
+    font-size: 30px;
+    color: white;
+    font-weight: 999;
+    background-color: rgb(0, 100, 53);
+    border: 1px black solid;
+    border-radius: 5px;
+}
+
+.boton p {
+    color: white;
+    margin-top: 20px;
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+
+.valuePosition {
+    display: flex;
+    flex-direction: row;
+}
+
+.valuePosition p:nth-child(1) {
+    font-weight: 999;
+}
+
+#contenedor-grafico {
+
+    margin: 20px auto;
+    width: 750px;
+}
